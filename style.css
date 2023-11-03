@@ -271,3 +271,84 @@ nav ul li a {
     padding: .4rem 1rem;
     color: red;
 }
+
+/* Skill & Education */
+
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 3rem;
+}
+
+.education {
+    display: flex;
+    gap: 2rem;
+}
+
+.education .line {
+    padding: 0 .7rem;
+
+}
+
+.education .line div {
+    width: 2px;
+    height: 100%;
+    position: relative;
+    background-color: #efefef;
+}
+
+.education-info p {
+    margin: .6rem 0 1.4rem;
+}
+
+.education-years {
+    margin-bottom: 3rem;
+}
+
+/* The Dot on the line */
+
+.education .line div::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    left: -6px;
+}
+
+.skills-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2rem;
+}
+
+.skills-right ul {
+    line-height: 2rem;
+    padding: 0 1rem;
+
+}
+
+
+/* Contact Section */
+.contact {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 3rem;
+}
+
+.contact-form div {
+    margin-bottom: 1.4rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: .75rem 1.3rem;
+    font-family: "Roboto";
+    background-color: #efefef;
+    border: 1px solid black;
+    border-radius: 3px;
+    resize: none;
+}
