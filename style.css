@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.main-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .main-container {
+        width: 90%;
+    }
+}
+
+
+/* Button */
+
+.btn {
+    padding: 1.7rem 1.5rem;
+    background: white;
+    border: 1.5px solid #efefef;
+    cursor: pointer;
+    transition: .1s ease-in-out;
+}
+
+.btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+
+/* tittle */
+
+.section-title {
+    margin: 1rem 0 4rem;
+    font-size: 2rem;
+}
+
+
+.pre-title {
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    color: red;
+    position: relative;
+    padding-left: 40px;
+    width: fit-content;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.pre-title::before {
+    content: "";
+    width: 30px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 50%;
+}
+
+
+/* Layout */
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem;
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 4rem;
+}
+
+
+/* Nav Section */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a {
+    color: red;
+}
+
+
+
+
+/* UKURAN GAMBAR LOGO */
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 70px;
+}
+
+
+/* END */
+
+
+
+/* Burger */
+
+
+.burger div {
+    width: 25px;
+    height: 2px;
+    background-color: #000;
+    margin: 7px;
+    transition: all .3s;
+    z-index: 99;
+}
+
+.burger {
+    display: none;
+    z-index: 99;
+    position: fixed;
+    top: 50px;
+    right: 35px;
+
+}
+
+
+/* Hero Section */
+
+
+#hero {
+    height: 720px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.hero-name {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: .5rem 0;
+}
+
+.hero-name span {
+    color: red;
+}
+
+.hero-right img {
+    width: 90%;
+}
+
+.hero-right {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Services Section */
+
+
+#services {
+    background-color: #efefef;
+    padding: 6rem 0;
+}
+
+.services .pre-title {
+    margin: 0 auto;
+}
+
+.services-title {
+    text-align: center;
+}
+
+.service {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.service h4 {
+    margin: 1.5rem 0;
+    font-weight: 600;
+    font-size: 1.05rem;
+
+}
+
+.service-icon {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: #000000e1;
+}
+
+/* Portfolio Section */
+
+
+#portfolios {
+    background-color: #efefef;
+    padding: 6rem 0;
+}
+
+/* .portfolio-cover {
+    height: 280px;
+} */
+
+.portfolio-cover img {
+    width: 100%;
+
+}
+
+.portfolio-info {
+    padding: 2rem 1.5rem;
+}
+
+.portfolio-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.portfolio h4 {
+    font-weight: 700;
+    font-size: 1.05rem;
+}
+
+.portfolio-title a svg {
+    fill: red;
+    transition: 0.5s ease-in-out;
+}
+
+.portfolio-title a svg:hover {
+    fill: rgb(102, 2, 2);
+
+}
+
+.portfolio-tags {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.portfolio-tags div {
+    font-size: .9rem;
+    font-weight: 600;
+    padding: .4rem 1rem;
+    color: red;
+}
