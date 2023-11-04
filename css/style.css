@@ -26,6 +26,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -53,15 +54,18 @@ a {
 /* Button */
 
 .btn {
-    padding: 1.7rem 1.5rem;
-    background: white;
+    color: white;
+    padding: .9rem 1.5rem;
+    background: red;
     border: 1.5px solid #efefef;
+    border-radius: 15px;
     cursor: pointer;
     transition: .1s ease-in-out;
 }
 
 .btn:hover {
     box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    background-color: rgb(102, 2, 2);
 }
 
 
@@ -425,4 +429,27 @@ nav ul li a {
 
 .contact-item-detail h4 {
     margin-bottom: 0.6rem;
+}
+
+/* Footer Section */
+footer {
+    padding: 4rem 0;
+    background: var(--secondaryBackgroundColor);
+    text-align: center;
+}
+
+.footer-icons {
+    margin-bottom: 1rem;
+}
+
+.footer-icons a {
+    margin: 0 0.5rem;
+}
+
+.footer-icons svg {
+    fill: #3e3f40;
+}
+
+.footer-icons a:hover svg {
+    fill: #000;
 }
