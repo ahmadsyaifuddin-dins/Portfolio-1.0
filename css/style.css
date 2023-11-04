@@ -459,9 +459,9 @@ footer {
 }
 
 .footer-icons svg {
-    fill: #3e3f40;
+    fill: red;
 }
 
 .footer-icons a:hover svg {
-    fill: #000;
+    fill: rgb(102, 2, 2);
 }
