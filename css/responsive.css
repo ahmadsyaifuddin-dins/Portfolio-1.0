@@ -130,4 +130,11 @@
     .pre-title {
         font-size: 0.7rem;
     }
+
+    /* Layouting */
+
+    .grid-4 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
