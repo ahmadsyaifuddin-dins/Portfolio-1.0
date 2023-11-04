@@ -383,7 +383,7 @@ nav ul li a {
 
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
-    color: #d9d9a1;
+    color: rgba(0, 0, 0, 0.61);
 }
 
 .contact-form input:focus,
