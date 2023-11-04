@@ -1,3 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+:root {
+    --primaryTextColor: #232e35;
+    /* Untuk title atau judul */
+    --secondaryTextColor: #656d72;
+    /* Untuk text biasa seperti paragraph contohnya */
+
+    --borderColor: #f1f1f1;
+    --lineColor: #d9d9d9;
+    /* untuk line di pre-title */
+
+    --primaryBackgroundColor: #fff;
+    --secondaryBackgroundColor: #fbfbfb;
+    --thirdBackgroundColor: #f5f3fe;
+
+    --primaryIconColor: #7e74f1;
+    --primaryIconColorHover: #5d51e8;
+
+    --sectionPadding: 6rem 0;
+
+    --itemBorderRadius: 0.7rem;
+}
+
 * {
     margin: 0;
     padding: 0;
