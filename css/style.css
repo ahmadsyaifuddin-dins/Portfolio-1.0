@@ -297,10 +297,10 @@ nav ul li a {
     font-size: .9rem;
     font-weight: 600;
     padding: .4rem 1rem;
-    color: black;
+    color: red;
     border-top-right-radius: 0.7rem;
     border-bottom-left-radius: 0.7rem;
-    background: red;
+    background: rgba(0, 0, 0, 0.938);
 }
 
 /* Skill & Education */
