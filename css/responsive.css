@@ -140,3 +140,10 @@
 
 
 }
+
+@media screen and (max-width: 480px) {
+    .main-container {
+        width: 95%;
+
+    }
+}
