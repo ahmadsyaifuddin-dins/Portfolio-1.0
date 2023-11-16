@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 
 :root {
-    --primaryTextColor: #232e35;
+    --primaryTextColor: #2667ff;
     /* Untuk title atau judul */
     --secondaryTextColor: #656d72;
     /* Untuk text biasa seperti paragraph contohnya */
@@ -10,7 +10,7 @@
     --lineColor: #d9d9d9;
     /* untuk line di pre-title */
 
-    --primaryBackgroundColor: #fff;
+    --primaryBackgroundColor: #efefef;
     --secondaryBackgroundColor: #fbfbfb;
     --thirdBackgroundColor: #f5f3fe;
 
@@ -23,6 +23,7 @@
 }
 
 * {
+    background-color: var(--primaryBackgroundColor);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -56,7 +57,7 @@ a {
 .btn {
     color: white;
     padding: .9rem 1.5rem;
-    background: red;
+    background: var(--primaryTextColor);
     border: 1.5px solid #efefef;
     border-radius: 15px;
     cursor: pointer;
@@ -80,7 +81,7 @@ a {
 .pre-title {
     text-transform: uppercase;
     letter-spacing: 0.5rem;
-    color: red;
+    color: var(--primaryTextColor);
     position: relative;
     padding-left: 40px;
     width: fit-content;
@@ -134,7 +135,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: red;
+    color: var(--primaryTextColor);
 }
 
 
@@ -195,7 +196,7 @@ nav ul li a {
 }
 
 .hero-name span {
-    color: red;
+    color: var(--primaryTextColor);
 }
 
 .hero-right img {
@@ -278,7 +279,7 @@ nav ul li a {
 }
 
 .portfolio-title a svg {
-    fill: red;
+    fill: var(--primaryTextColor);
     transition: 0.5s ease-in-out;
 }
 
@@ -297,7 +298,7 @@ nav ul li a {
     font-size: .9rem;
     font-weight: 600;
     padding: .4rem 1rem;
-    color: red;
+    color: var(--primaryTextColor);
     border-top-right-radius: 0.7rem;
     border-bottom-left-radius: 0.7rem;
     background: rgba(0, 0, 0, 0.938);
@@ -345,7 +346,7 @@ nav ul li a {
     content: "";
     width: 15px;
     height: 15px;
-    background-color: red;
+    background-color: var(--primaryTextColor);
     border-radius: 50%;
     position: absolute;
     left: -6px;
@@ -364,7 +365,7 @@ nav ul li a {
 /* List Bullet Modif */
 .skills-right ul li::before {
     content: "\2022";
-    color: red;
+    color: var(--primaryTextColor);
     display: inline-block;
     font-weight: 800;
     width: 1em;
@@ -420,7 +421,7 @@ nav ul li a {
 .btn-submit {
     width: 100%;
     padding: 0.75rem 1.3rem;
-    background-color: red;
+    background-color: var(--primaryTextColor);
     color: #fff;
     border: none;
     border-radius: 3px;
@@ -451,7 +452,7 @@ nav ul li a {
 }
 
 .contact-item-icon svg {
-    fill: red;
+    fill: var(--primaryTextColor);
 }
 
 .contact-item-detail h4 {
@@ -474,7 +475,7 @@ footer {
 }
 
 .footer-icons svg {
-    fill: red;
+    fill: var(--primaryTextColor);
 }
 
 .footer-icons a:hover svg {
