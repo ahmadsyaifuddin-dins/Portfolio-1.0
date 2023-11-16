@@ -357,19 +357,27 @@ nav ul li a {
     margin-top: 2rem;
 }
 
+.skills-list ul li {
+    list-style: none;
+}
+
+/* List Bullet Modif */
+.skills-right ul li::before {
+    content: "\2022";
+    color: red;
+    display: inline-block;
+    font-weight: 800;
+    width: 1em;
+    margin-left: -1em;
+}
+
+
 .skills-right ul {
     line-height: 2rem;
     padding: 0 1rem;
 
 }
 
-.skills-right ul li::before {
-    content: "\2022";
-    color: red;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
-}
 
 /* Contact Section */
 #contact {
