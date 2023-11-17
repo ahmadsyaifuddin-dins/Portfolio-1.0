@@ -242,6 +242,8 @@ nav ul li a {
     margin: 0 auto;
     padding: 1rem;
     border-radius: 0.5rem;
+    /* For Icon Fingerprint Lock */
+    fill: #2667ff;
 }
 
 /* Portfolio Section */
