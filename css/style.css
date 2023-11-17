@@ -330,7 +330,7 @@ nav ul li a {
     width: 2px;
     height: 100%;
     position: relative;
-    background-color: rgba(255, 0, 0, 0.185);
+    background-color: #92aff5;
 }
 
 .education-info p {
@@ -410,7 +410,7 @@ nav ul li a {
 
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
-    color: rgba(255, 0, 0, 0.514);
+    color: #2667ffab;
 }
 
 .contact-form input:focus,
