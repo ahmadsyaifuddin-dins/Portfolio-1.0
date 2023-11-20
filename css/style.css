@@ -302,12 +302,14 @@ nav ul li a {
   padding: 0 0.7rem;
 }
 
+
 .education .line div {
   width: 2px;
   height: 100%;
   position: relative;
   background-color: #92aff5;
 }
+
 
 .education-info p {
   /* Ori */
@@ -316,12 +318,12 @@ nav ul li a {
   margin: 1rem 5rem 1rem 0.2rem;
 }
 
+
 .education-years {
   margin-bottom: 3rem;
 }
 
-/* The Dot on the line */
-
+/* The Dot biru on the line  */
 .education .line div::before {
   content: "";
   width: 15px;
@@ -332,6 +334,44 @@ nav ul li a {
   left: -6px;
 }
 
+
+/* Education Khusus SDN (Merah) */
+
+.education01 {
+  display: flex;
+  gap: 2rem;
+}
+
+.education01 .line {
+  padding: 0 0.7rem;
+}
+
+.education01 .line div {
+  width: 2px;
+  height: 100%;
+  position: relative;
+  background-color: rgb(180, 93, 93);
+}
+
+.education-title01 {
+  color: red;
+}
+
+/* The Dot merah of SDN */
+.education01 .line div::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  left: -6px;
+}
+
+/* END Education Khusus SDN (Merah) */
+
+
+/* Skills  Right*/
 .skills-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -356,6 +396,9 @@ nav ul li a {
   line-height: 2rem;
   padding: 0 1rem;
 }
+
+/* END Section of Skill & Education */
+
 
 /* Contact Section */
 #contact {
