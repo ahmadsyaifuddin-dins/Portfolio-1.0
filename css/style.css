@@ -530,7 +530,7 @@ nav ul li a {
 /* Footer Section */
 footer {
   padding: 4rem 0;
-  background: var(--primaryBackgroundColor);
+  background: var(--secondaryBackgroundColor);
   text-align: center;
 }
 
