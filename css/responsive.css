@@ -1,149 +1,145 @@
 @media screen and (max-width: 1000px) {
-    p {
-        font-size: .9rem;
-        line-height: 1.8rem;
-    }
+  p {
+    font-size: 0.9rem;
+    line-height: 1.8rem;
+  }
 
-    .grid-3 {
-        gap: 1rem;
-    }
+  .grid-3 {
+    gap: 1rem;
+  }
 
-
-    .skills-right ul li {
-        font-size: 0.9rem;
-    }
-
-
+  .skills-right ul li {
+    font-size: 0.9rem;
+  }
 }
 
 @media screen and (max-width: 825px) {
+  /* burger Tampilan*/
+  .burger {
+    display: block;
+    cursor: pointer;
+  }
 
-    /* burger Tampilan*/
-    .burger {
-        display: block;
-        cursor: pointer;
-    }
+  /* Toggle Animasi */
+  .toggle-burger .line-1 {
+    transform: rotate(-45deg) translate(-5px, 7px);
+  }
 
-    /* Toggle Animasi */
-    .toggle-burger .line-1 {
-        transform: rotate(-45deg) translate(-5px, 7px);
-    }
+  .toggle-burger .line-2 {
+    opacity: 0;
+  }
 
-    .toggle-burger .line-2 {
-        opacity: 0;
-    }
+  .toggle-burger .line-3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+  }
 
-    .toggle-burger .line-3 {
-        transform: rotate(45deg) translate(-5px, -7px);
-    }
+  /* navigation */
+  nav {
+    position: fixed;
+    width: 50%;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    flex-direction: column;
+    background: #d6d4d4;
+    border-left: 1px solid var(--borderColor);
+    z-index: 9;
+    transform: translateX(100%);
+    transition: 0.5s ease-in-out;
+  }
 
+  nav ul {
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
 
-    /* navigation */
-    nav {
-        position: fixed;
-        width: 50%;
-        right: 0;
-        top: 0;
-        height: 100vh;
-        flex-direction: column;
-        background: #d6d4d4;
-        border-left: 1px solid var(--borderColor);
-        z-index: 9;
-        transform: translateX(100%);
-        transition: 0.5s ease-in-out;
-    }
+  nav ul li a {
+    color: black;
+  }
 
-    nav ul {
-        height: 100vh;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-    }
+  .nav-active {
+    transform: translateX(0);
+  }
 
-    nav ul li a {
-        color: black;
-    }
+  :root {
+    --sectionPadding: 4rem 0;
+  }
 
-    .nav-active {
-        transform: translateX(0);
-    }
+  .section-title {
+    font-size: 1.6rem;
+    margin: 0.6rem 0 2.5rem;
+  }
 
-    :root {
-        --sectionPadding: 4rem 0;
-    }
+  .pre-title {
+    font-size: 0.8rem;
+  }
 
-    .section-title {
-        font-size: 1.6rem;
-        margin: .6rem 0 2.5rem;
-    }
+  /* Hero Section */
+  #hero {
+    grid-template-columns: 1fr;
+    height: fit-content;
+  }
 
-    .pre-title {
-        font-size: 0.8rem;
-    }
+  .hero-right {
+    order: -1;
+  }
 
-    /* Hero Section */
-    #hero {
-        grid-template-columns: 1fr;
-        height: fit-content;
-    }
+  .hero-right img {
+    width: 80%;
+  }
 
-    .hero-right {
-        order: -1;
-    }
+  .hero-left {
+    text-align: center;
+    padding-bottom: 5rem;
+  }
 
-    .hero-right img {
-        width: 80%;
-    }
+  .hero-left .pre-title {
+    margin: 0 auto;
+  }
 
-    .hero-left {
-        text-align: center;
-        padding-bottom: 5rem;
-    }
+  .hero-name {
+    font-size: 2.3rem;
+    margin-bottom: 0.5rem;
+  }
 
-    .hero-left .pre-title {
-        margin: 0 auto;
-    }
+  /* Skills Section */
+  .skills-grid {
+    gap: 1rem;
+  }
 
-    .hero-name {
-        font-size: 2.3rem;
-        margin-bottom: .5rem;
-    }
-
-    /* Skills Section */
-    .skills-grid {
-        gap: 1rem;
-    }
-
-    /* Footer Section */
-    footer {
-        padding: 2rem 0;
-    }
+  /* Footer Section */
+  footer {
+    padding: 2rem 0;
+  }
 }
 
 @media screen and (max-width: 640px) {
+  /* Title */
+  .section-title {
+    font-size: 1.3rem;
+  }
 
-    /* Title */
-    .section-title {
-        font-size: 1.3rem;
-    }
+  .pre-title {
+    font-size: 0.7rem;
+  }
 
-    .pre-title {
-        font-size: 0.7rem;
-    }
+  /* Layouting */
 
-    /* Layouting */
-
-    .grid-4 {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-
-
+  .grid-4 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 
 @media screen and (max-width: 480px) {
-    .main-container {
-        width: 95%;
+  .main-container {
+    width: 95%;
+  }
 
-    }
+  .education-info p {
+    /* Ori */
+    margin: 0.6rem 0 1.4rem;
+  }
 }
