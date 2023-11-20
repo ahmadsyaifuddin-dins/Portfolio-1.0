@@ -387,7 +387,7 @@ nav ul li a {
   height: 100%;
   position: relative;
   background: rgb(255, 0, 0);
-  background: linear-gradient(180deg, rgba(255, 0, 0, 1) 0%, rgba(9, 9, 121, 1) 50%, rgba(0, 212, 255, 1) 100%);
+  background: linear-gradient(180deg, rgba(255, 0, 0, 1) 0%, rgba(180, 93, 93) 50%, rgba(0, 212, 255, 1) 100%);
 
 }
 
