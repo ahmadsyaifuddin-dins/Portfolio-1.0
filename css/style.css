@@ -31,7 +31,9 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #e8eff8;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgb(53, 12, 235) 30%, rgba(0, 212, 255, 1) 60%);
+
 }
 
 a {
@@ -177,6 +179,15 @@ nav ul li a {
   font-weight: 700;
   margin: 0.5rem 0;
 }
+
+.hero-left h1 {
+  color: white;
+}
+
+.hero-left p {
+  color: white;
+}
+
 
 .hero-name span {
   color: var(--primaryTextColor);
