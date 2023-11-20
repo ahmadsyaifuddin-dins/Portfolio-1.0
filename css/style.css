@@ -335,30 +335,31 @@ nav ul li a {
 }
 
 
-/* Education Khusus SDN (Merah) */
+/* Education Khusus SDN ASM1 (Merah) */
 
-.education01 {
+.education03 {
   display: flex;
   gap: 2rem;
 }
 
-.education01 .line {
+.education03 .line {
   padding: 0 0.7rem;
 }
 
-.education01 .line div {
+.education03 .line div {
   width: 2px;
   height: 100%;
   position: relative;
   background-color: rgb(180, 93, 93);
+
 }
 
-.education-title01 {
+.education-title03 {
   color: red;
 }
 
-/* The Dot merah of SDN */
-.education01 .line div::before {
+/* The Dot merah of SDN ASM1 */
+.education03 .line div::before {
   content: "";
   width: 15px;
   height: 15px;
@@ -368,7 +369,44 @@ nav ul li a {
   left: -6px;
 }
 
-/* END Education Khusus SDN (Merah) */
+/* END Education Khusus SDN ASM 1 (Merah) */
+
+/* Education Khusus SDN BJ (Merah to Biru) */
+
+.education06 {
+  display: flex;
+  gap: 2rem;
+}
+
+.education06 .line {
+  padding: 0 0.7rem;
+}
+
+.education06 .line div {
+  width: 2px;
+  height: 100%;
+  position: relative;
+  background: rgb(255, 0, 0);
+  background: linear-gradient(180deg, rgba(255, 0, 0, 1) 0%, rgba(9, 9, 121, 1) 50%, rgba(0, 212, 255, 1) 100%);
+
+}
+
+.education-title06 {
+  color: red;
+}
+
+/* The Dot merah of SDN BJ */
+.education06 .line div::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  left: -6px;
+}
+
+/* END Education Khusus SDN BJ (Merah to Biru) */
 
 
 /* Skills  Right*/
