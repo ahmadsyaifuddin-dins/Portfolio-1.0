@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 
 :root {
-  --primaryTextColor: #00bcd4;
+  --primaryTextColor: #00C951;
   /* Untuk title atau judul */
   --secondaryTextColor: #656d72;
   /* Untuk text biasa seperti paragraph contohnya */
@@ -15,7 +15,7 @@
   --thirdBackgroundColor: #f5f3fe;
 
   --primaryIconColor: #7e74f1;
-  --primaryIconColorHover: #032981;
+  --primaryIconColorHover: rgb(15, 66, 15);
 
   --sectionPadding: 6rem 0;
 
@@ -34,8 +34,8 @@ body {
   background: rgb(0, 0, 0);
   background: linear-gradient(180deg,
       rgba(0, 0, 0, 1) 0%,
-      rgb(53, 12, 235) 12%,
-      rgba(0, 212, 255, 1) 60%);
+      rgb(3, 49, 3) 10%,
+      green 80%);
 }
 
 a {
@@ -153,7 +153,7 @@ nav ul li a {
 .burger div {
   width: 25px;
   height: 2px;
-  background-color: blue;
+  background-color: green;
   margin: 7px;
   transition: all 0.3s;
   z-index: 99;
@@ -235,7 +235,7 @@ nav ul li a {
   padding: 1rem;
   border-radius: 0.5rem;
   /* For Icon Fingerprint Lock */
-  fill: #2667ff;
+  fill: #00C951;
 }
 
 /* Portfolio Section */
@@ -318,7 +318,7 @@ nav ul li a {
   width: 2px;
   height: 100%;
   position: relative;
-  background-color: #92aff5;
+  background-color: var(--primaryTextColor);
 }
 
 .education-info p {
@@ -332,7 +332,7 @@ nav ul li a {
   margin-bottom: 3rem;
 }
 
-/* The Dot biru on the line  */
+/* The Dot hijau on the line  */
 .education .line div::before {
   content: "";
   width: 15px;
@@ -378,7 +378,7 @@ nav ul li a {
 
 /* END Education Khusus SDN ASM 1 (Merah) */
 
-/* Education Khusus SDN BJ (Merah to Biru) */
+/* Education Khusus SDN BJ (Merah to hijau) */
 
 .education06 {
   display: flex;
@@ -397,7 +397,7 @@ nav ul li a {
   background: linear-gradient(180deg,
       rgba(255, 0, 0, 1) 0%,
       rgba(180, 93, 93) 50%,
-      rgba(0, 212, 255, 1) 100%);
+      rgb(6, 199, 6) 100%);
 }
 
 .education-title06 {
@@ -415,7 +415,7 @@ nav ul li a {
   left: -6px;
 }
 
-/* END Education Khusus SDN BJ (Merah to Biru) */
+/* END Education Khusus SDN BJ (Merah to Hijau) */
 
 /* Skills  Right*/
 .skills-list {
@@ -475,7 +475,7 @@ nav ul li a {
 
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
-  color: #2667ffab;
+  color: var(--primaryTextColor);
 }
 
 .contact-form input:focus,
@@ -489,7 +489,7 @@ nav ul li a {
 .btn-submit {
   width: 100%;
   padding: 0.75rem 1.3rem;
-  background-color: #2667ff;
+  background-color: var(--primaryTextColor);
   color: #fff;
   border: none;
   border-radius: 3px;
