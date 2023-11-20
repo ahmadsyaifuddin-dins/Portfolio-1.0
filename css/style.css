@@ -32,8 +32,12 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background: rgb(0, 0, 0);
-  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgb(53, 12, 235) 30%, rgba(0, 212, 255, 1) 60%);
-
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgb(53, 12, 235) 15%,
+    rgba(0, 212, 255, 1) 60%
+  );
 }
 
 a {
@@ -188,7 +192,6 @@ nav ul li a {
   color: white;
 }
 
-
 .hero-name span {
   color: var(--primaryTextColor);
 }
@@ -313,7 +316,6 @@ nav ul li a {
   padding: 0 0.7rem;
 }
 
-
 .education .line div {
   width: 2px;
   height: 100%;
@@ -321,14 +323,12 @@ nav ul li a {
   background-color: #92aff5;
 }
 
-
 .education-info p {
   /* Ori */
   /* margin: 0.6rem 0 1.4rem; */
   /* Revisi */
   margin: 1rem 5rem 1rem 0.2rem;
 }
-
 
 .education-years {
   margin-bottom: 3rem;
@@ -344,7 +344,6 @@ nav ul li a {
   position: absolute;
   left: -6px;
 }
-
 
 /* Education Khusus SDN ASM1 (Merah) */
 
@@ -362,7 +361,6 @@ nav ul li a {
   height: 100%;
   position: relative;
   background-color: rgb(180, 93, 93);
-
 }
 
 .education-title03 {
@@ -398,8 +396,12 @@ nav ul li a {
   height: 100%;
   position: relative;
   background: rgb(255, 0, 0);
-  background: linear-gradient(180deg, rgba(255, 0, 0, 1) 0%, rgba(180, 93, 93) 50%, rgba(0, 212, 255, 1) 100%);
-
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(180, 93, 93) 50%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 
 .education-title06 {
@@ -418,7 +420,6 @@ nav ul li a {
 }
 
 /* END Education Khusus SDN BJ (Merah to Biru) */
-
 
 /* Skills  Right*/
 .skills-list {
@@ -447,7 +448,6 @@ nav ul li a {
 }
 
 /* END Section of Skill & Education */
-
 
 /* Contact Section */
 #contact {
