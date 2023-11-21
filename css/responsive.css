@@ -134,6 +134,15 @@
 }
 
 @media screen and (max-width: 480px) {
+  body{
+  background: rgb(0, 0, 0);
+  background: linear-gradient(180deg,
+      rgba(0, 0, 0, 1) 1%,
+      rgb(3, 49, 3) 10%,
+      green 85%);
+}
+  }
+  
   .main-container {
     width: 95%;
   }
