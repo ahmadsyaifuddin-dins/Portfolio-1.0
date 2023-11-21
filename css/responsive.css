@@ -138,8 +138,8 @@
   background: rgb(0, 0, 0);
   background: linear-gradient(180deg,
       rgba(0, 0, 0, 1) 1%,
-      rgb(3, 49, 3) 10%,
-      green 85%);
+      rgb(3, 49, 3) 5%,
+      green 90%);
 }
   }
   
