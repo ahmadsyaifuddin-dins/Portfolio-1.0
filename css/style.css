@@ -16,6 +16,7 @@
 
   --primaryIconColor: #7e74f1;
   --primaryIconColorHover: rgb(15, 66, 15);
+  --primaryTextColorHover: green;
 
   --sectionPadding: 6rem 0;
   --primaryContact: palegreen;
@@ -134,6 +135,10 @@ nav ul li {
 
 nav ul li a {
   color: var(--primaryTextColor);
+}
+
+nav ul li a:hover {
+  color: var(--primaryTextColorHover);
 }
 
 /* UKURAN GAMBAR LOGO */
