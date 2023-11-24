@@ -35,7 +35,7 @@
 
   /* navigation */
   nav {
-    position: absolute;
+    position: relative;
     width: 50%;
     right: 0;
     top: 0;
