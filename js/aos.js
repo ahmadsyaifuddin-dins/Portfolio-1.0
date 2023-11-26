@@ -2,5 +2,5 @@ AOS.init();
 
 AOS.init({
     once: false,
-    delay: 100
+    delay: 150
 });
