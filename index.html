@@ -619,13 +619,22 @@
                 </svg>
             </a>
         </div>
-        <p data-aos="fade-up" data-aos-anchor-placement="top-bottom">&#169; 2023 - Made by Ahmad Syaifuddin</p>
+        <p data-aos="fade-up" data-aos-anchor-placement="top-bottom">&#169; <span id="year"> </span> - Made by Ahmad
+            Syaifuddin</p>
     </footer>
     <!-- End Footer -->
+
+
+    <!-- Get year Dynamic Footer -->
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
 
     <!-- AOS CDN SCRIPT -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+
+    <!-- My Script -->
     <script src="js/script.js"></script>
     <script src="js/aos.js"></script>
 
