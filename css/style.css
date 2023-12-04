@@ -192,6 +192,12 @@ nav ul li a:hover {
   color: white;
 }
 
+.typed span {
+  color: var(--primaryTextColor);
+  font-size: 2rem;
+  font-weight: 600;
+}
+
 .hero-left p {
   color: white;
 }
