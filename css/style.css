@@ -401,6 +401,10 @@ nav ul li a:hover {
   padding: 0 0.7rem;
 }
 
+.year-red {
+  color: red;
+}
+
 .education06 .line div {
   width: 2px;
   height: 100%;
